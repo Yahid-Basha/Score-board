@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Score Counter</h1>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div class="score-bimg" id="score-home">
+            </div>
+            <button class="btn" onclick="increase1('score-home')">+ 1</button>
+            <button class="btn" onclick="increase4('score-home')">+ 4</button>
+            <button class="btn" onclick="increase6('score-home')">+ 6</button>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <div class="score-bimg" id="score-guest">
+            </div>
+            <button class="btn" onclick="increase1('score-guest')">+ 1</button>
+            <button class="btn" onclick="increase4('score-guest')">+ 4</button>
+            <button class="btn" onclick="increase6('score-guest')">+ 6</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
